@@ -1,0 +1,74 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code and other IDE settings
+.vscode/
+.idea/
+
+# MacOS and system files
+.DS_Store
+Thumbs.db
+
+# Model files and outputs
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.h5
+*.pb
+
+# Hugging Face cache
+~/.cache/huggingface/
+huggingface/
+.cache/
+transformers_cache/
+datasets_cache/
+*.log
+
+# Datasets
+data/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+
+# Temporary files
+*.tmp
+*.log
+*.out
+*.bak
+*.swp
+
+# Model checkpoints
+checkpoints/
+runs/  # e.g., TensorBoard logs
+
+# Local dev notebooks/experiments
+experiments/
+notebooks/tmp_*
+
+# Docker
+*.dockerfile
+*.container
+
+# Linting and coverage
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
