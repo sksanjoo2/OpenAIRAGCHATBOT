@@ -72,3 +72,8 @@ notebooks/tmp_*
 .coverage
 coverage.xml
 htmlcov/
+
+# Data File
+Data/
+# Chroma DB data
+chroma_db/
